@@ -35,6 +35,7 @@ class CalculadoraApp:
         for i in range(4):
             self.root.grid_columnconfigure(i, weight=1)
 
+    #Función para evento click
     def on_button_click(self, text):
         if text == 'C':
             self.current_entry.set('')
