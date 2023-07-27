@@ -13,7 +13,7 @@ class CalculadoraApp:
         self.create_widgets()
 
     def create_widgets(self):
-        # Pantalla de resultados
+        # Pantalla de resultados (muestra el resultado en la pantalla)
         result_display = tk.Entry(self.root, textvariable=self.result, font=("Arial", 20), bd=5, relief=tk.RIDGE, justify=tk.RIGHT)
         result_display.grid(row=0, column=0, columnspan=4, padx=10, pady=10)
 
