@@ -17,7 +17,7 @@ class CalculadoraApp:
         result_display = tk.Entry(self.root, textvariable=self.result, font=("Arial", 20), bd=5, relief=tk.RIDGE, justify=tk.RIGHT)
         result_display.grid(row=0, column=0, columnspan=4, padx=10, pady=10)
 
-        # Números y operadores
+        # Números y operadores (Los números que se mostrarán en los botones de la calculadora)
         buttons = [
             ('7', 1, 0), ('8', 1, 1), ('9', 1, 2), ('+', 1, 3),
             ('4', 2, 0), ('5', 2, 1), ('6', 2, 2), ('-', 2, 3),
