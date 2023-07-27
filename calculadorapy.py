@@ -2,6 +2,7 @@ import tkinter as tk
 
 class CalculadoraApp:
     def __init__(self, root):
+        #Definición de ajustes de la ventana GUI
         self.root = root
         self.root.title("Calculadora")
         self.root.geometry("300x400")
